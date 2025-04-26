@@ -40,7 +40,7 @@ TArray<FString> UISRuntimeTextureSubsystem::GetImagesNamesFromRuntimeTexturesFol
 
 UTexture2D* UISRuntimeTextureSubsystem::ConvertImageToTexture(const FString& ImageName) const
 {
-    return FImageUtils::ImportFileAsTexture2D(GetRuntimeTextureFolderPath() + ImageName);
+    return FImageUtils::ImportFileAsTexture2D(GetRuntimeTextureFolderPath() + ImageName); //TO DO: User can create the same texture multiple times, which can cause a memory leak. Need to fix
 }
 
 void UISRuntimeTextureSubsystem::CreateRuntimeTexturesFolder()
