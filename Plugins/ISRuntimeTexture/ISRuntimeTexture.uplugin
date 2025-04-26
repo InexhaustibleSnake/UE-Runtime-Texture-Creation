@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ISRuntimeTexture",
+	"Description": "Allows you to dynamically create textures from images",
+	"Category": "Other",
+	"CreatedBy": "Inexhautible Snake",
+	"CreatedByURL": "https://github.com/InexhaustibleSnake",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ISRuntimeTexture",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
